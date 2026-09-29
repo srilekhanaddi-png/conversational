@@ -6,8 +6,6 @@ while True:
     if q.lower() == "exit":
         print("AI:good bye")
         break
-    list = []
-    list.append = []
     response = ollama.chat(
         model = "llama3.2",messages=[{
             "role": "user",

@@ -27,4 +27,4 @@ while True:
             print("You:", message["content"])
         else:
             print("BOT:", message["content"])
-    print("\n---End of chat History---\n")       
+    print("\n--------------\n")    
